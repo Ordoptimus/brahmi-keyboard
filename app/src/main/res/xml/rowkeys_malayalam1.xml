@@ -21,138 +21,110 @@
 <merge xmlns:latin="http://schemas.android.com/apk/res-auto" >
     <switch>
         <case latin:showNumberRow="true">
-            <!-- U+0D4D: "്" MALAYALAM SIGN VIRAMA
-                 U+0D05: "അ" MALAYALAM LETTER A -->
+            <!-- U+11038: " 𑀸" BRAMHI VOWEL SIGN AA
+                 U+11039: " 𑀹" BRAMHI VOWEL SIGN BHATTIPROLU AA -->
             <Key
-                latin:keySpec="&#x0D4D;"
-                latin:moreKeys="&#x0D05;,%" />
-            <!-- U+0D3E: "ാ" MALAYALAM VOWEL SIGN AA
-                 U+0D06: "ആ" MALAYALAM LETTER AA -->
+                latin:keySpec="&#x11038;"
+                latin:moreKeys="&#x11039;,%" />
+            <!-- U+1103A: " 𑀺" BRAMHI VOWEL SIGN I -->
             <Key
-                latin:keySpec="&#x0D3E;"
-                latin:moreKeys="&#x0D06;,%" />
-            <!-- U+0D3F: "ി" MALAYALAM VOWEL SIGN I
-                 U+0D07: "ഇ" MALAYALAM LETTER I -->
+                latin:keySpec="&#x1103A;" />
+            <!-- U+1103B: " 𑀻" BRAMHI VOWEL SIGN II -->
             <Key
-                latin:keySpec="&#x0D3F;"
-                latin:moreKeys="&#x0D07;,%" />
-            <!-- U+0D40: "ീ" MALAYALAM VOWEL SIGN II
-                 U+0D08: "ഈ" MALAYALAM LETTER II -->
+                latin:keySpec="&#x1103B;" />
+            <!-- U+1103C: " 𑀼" BRAMHI VOWEL SIGN U
+                 U+1103E: " 𑀾" BRAMHI VOWEL SIGN VOCALIC R
+                 U+11040: " 𑁀" BRAMHI VOWEL SIGN VOCALIC L -->
             <Key
-                latin:keySpec="&#x0D40;"
-                latin:moreKeys="&#x0D08;,%" />
-            <!-- U+0D41: "ു" MALAYALAM VOWEL SIGN U
-                 U+0D09: "ഉ" MALAYALAM LETTER U -->
+                latin:keySpec="&#x1103C;"
+                latin:moreKeys="&#x1103E;,&#x11040;,%" />
+            <!-- U+1103D: " 𑀽" BRAMHI VOWEL SIGN UU
+                 U+1103F: " 𑀿" BRAMHI VOWEL SIGN VOCALIC RR
+                 U+11041: " 𑁁" BRAMHI VOWEL SIGN VOCALIC LL -->
             <Key
-                latin:keySpec="&#x0D41;"
-                latin:moreKeys="&#x0D09;,%" />
-            <!-- U+0D42: "ൂ" MALAYALAM VOWEL SIGN UU
-                 U+0D0A: "ഊ" MALAYALAM LETTER UU -->
+                latin:keySpec="&#x1103D;"
+                latin:moreKeys="&#x1103F;,&#x11041;,%" />
+            <!-- U+11042: "  𑁂" BRAMHI VOWEL SIGN E -->
             <Key
-                latin:keySpec="&#x0D42;"
-                latin:moreKeys="&#x0D0A;,%" />
-            <!-- U+0D43: "ൃ" MALAYALAM VOWEL SIGN VOCALIC R
-                 U+0D0B: "ഋ" MALAYALAM LETTER VOCALIC R -->
+                latin:keySpec="&#x11042;" />
+            <!-- U+11043: "  𑁃" BRAMHI VOWEL SIGN AI -->
             <Key
-                latin:keySpec="&#x0D43;"
-                latin:moreKeys="&#x0D0B;,%" />
-            <!-- U+0D46: "െ" MALAYALAM VOWEL SIGN E
-                 U+0D0E: "എ" MALAYALAM LETTER E
-                 U+0D10: "ഐ" MALAYALAM LETTER AI
-                 U+0D48: "ൈ" MALAYALAM VOWEL SIGN AI -->
+                latin:keySpec="&#x11043;" />
+            <!-- U+11044: "  𑁄" BRAMHI VOWEL SIGN O -->
             <Key
-                latin:keySpec="&#x0D46;"
-                latin:moreKeys="&#x0D0E;,&#x0D10;,&#x0D48;,%" />
-            <!-- U+0D47: "േ" MALAYALAM VOWEL SIGN EE
-                 U+0D0F: "ഏ" MALAYALAM LETTER EE -->
+                latin:keySpec="&#x11044;" />
+            <!-- U+11045: "  𑁅𑁅" BRAMHI VOWEL SIGN AU -->
             <Key
-                latin:keySpec="&#x0D47;"
-                latin:moreKeys="&#x0D0F;,%" />
-            <!-- U+0D4A: "ൊ" MALAYALAM VOWEL SIGN O
-                 U+0D12: "ഒ" MALAYALAM LETTER O -->
+                latin:keySpec="&#x11045;" />
+            <!-- U+11001: " 𑀁" BRAMHI SIGN ANUSVARA
+                 U+11002: " 𑀂" BRAMHI SIGN VISARGA -->
             <Key
-                latin:keySpec="&#x0D4A;"
-                latin:moreKeys="&#x0D12;,%" />
+                latin:keySpec="&#x11001;"
+                latin:moreKeys="&#x11002;,%" />
         </case>
         <default>
-            <!-- U+0D4D: "്" MALAYALAM SIGN VIRAMA
-                 U+0D05: "അ" MALAYALAM LETTER A -->
+            <!-- U+11038: " 𑀸" BRAMHI VOWEL SIGN AA
+                 U+11039: " 𑀹" BRAMHI VOWEL SIGN BHATTIPROLU AA -->
             <Key
-                latin:keySpec="&#x0D4D;"
-                latin:moreKeys="&#x0D05;,%"
+                latin:keySpec="&#x11038;"
+                latin:moreKeys="&#x11039;,%"
                 latin:keyHintLabel="1"
                 latin:additionalMoreKeys="1" />
-            <!-- U+0D3E: "ാ" MALAYALAM VOWEL SIGN AA
-                 U+0D06: "ആ" MALAYALAM LETTER AA -->
+            <!-- U+1103A: " 𑀺" BRAMHI VOWEL SIGN I -->
             <Key
-                latin:keySpec="&#x0D3E;"
-                latin:moreKeys="&#x0D06;,%"
+                latin:keySpec="&#x1103A;"
                 latin:keyHintLabel="2"
                 latin:additionalMoreKeys="2" />
-            <!-- U+0D3F: "ി" MALAYALAM VOWEL SIGN I
-                 U+0D07: "ഇ" MALAYALAM LETTER I -->
+            <!-- U+1103B: " 𑀻" BRAMHI VOWEL SIGN II -->
             <Key
-                latin:keySpec="&#x0D3F;"
-                latin:moreKeys="&#x0D07;,%"
+                latin:keySpec="&#x1103B;"
                 latin:keyHintLabel="3"
                 latin:additionalMoreKeys="3" />
-            <!-- U+0D40: "ീ" MALAYALAM VOWEL SIGN II
-                 U+0D08: "ഈ" MALAYALAM LETTER II -->
+            <!-- U+1103C: " 𑀼" BRAMHI VOWEL SIGN U
+                 U+1103E: " 𑀾" BRAMHI VOWEL SIGN VOCALIC R
+                 U+11040: " 𑁀" BRAMHI VOWEL SIGN VOCALIC L -->
             <Key
-                latin:keySpec="&#x0D40;"
-                latin:moreKeys="&#x0D08;,%"
+                latin:keySpec="&#x1103C;"
+                latin:moreKeys="&#x1103E;,&#x11040;,%"
                 latin:keyHintLabel="4"
                 latin:additionalMoreKeys="4" />
-            <!-- U+0D41: "ു" MALAYALAM VOWEL SIGN U
-                 U+0D09: "ഉ" MALAYALAM LETTER U -->
+            <!-- U+1103D: " 𑀽" BRAMHI VOWEL SIGN UU
+                 U+1103F: " 𑀿" BRAMHI VOWEL SIGN VOCALIC RR
+                 U+11041: " 𑁁" BRAMHI VOWEL SIGN VOCALIC LL -->
             <Key
-                latin:keySpec="&#x0D41;"
-                latin:moreKeys="&#x0D09;,%"
+                latin:keySpec="&#x1103D;"
+                latin:moreKeys="&#x1103F;,&#x11041;,%"
                 latin:keyHintLabel="5"
                 latin:additionalMoreKeys="5" />
-            <!-- U+0D42: "ൂ" MALAYALAM VOWEL SIGN UU
-                 U+0D0A: "ഊ" MALAYALAM LETTER UU -->
+            <!-- U+11042: "  𑁂" BRAMHI VOWEL SIGN E -->
             <Key
-                latin:keySpec="&#x0D42;"
-                latin:moreKeys="&#x0D0A;,%"
+                latin:keySpec="&#x11042;"
                 latin:keyHintLabel="6"
                 latin:additionalMoreKeys="6" />
-            <!-- U+0D43: "ൃ" MALAYALAM VOWEL SIGN VOCALIC R
-                 U+0D0B: "ഋ" MALAYALAM LETTER VOCALIC R -->
+            <!-- U+11043: "  𑁃" BRAMHI VOWEL SIGN AI -->
             <Key
-                latin:keySpec="&#x0D43;"
-                latin:moreKeys="&#x0D0B;,%"
+                latin:keySpec="&#x11043;"
                 latin:keyHintLabel="7"
                 latin:additionalMoreKeys="7" />
-            <!-- U+0D46: "െ" MALAYALAM VOWEL SIGN E
-                 U+0D0E: "എ" MALAYALAM LETTER E
-                 U+0D10: "ഐ" MALAYALAM LETTER AI
-                 U+0D48: "ൈ" MALAYALAM VOWEL SIGN AI -->
+            <!-- U+11044: "  𑁄" BRAMHI VOWEL SIGN O -->
             <Key
-                latin:keySpec="&#x0D46;"
-                latin:moreKeys="&#x0D0E;,&#x0D10;,&#x0D48;,%"
+                latin:keySpec="&#x11044;"
                 latin:keyHintLabel="8"
                 latin:additionalMoreKeys="8" />
-            <!-- U+0D47: "േ" MALAYALAM VOWEL SIGN EE
-                 U+0D0F: "ഏ" MALAYALAM LETTER EE -->
+            <!-- U+11045: "  𑁅𑁅" BRAMHI VOWEL SIGN AU -->
             <Key
-                latin:keySpec="&#x0D47;"
-                latin:moreKeys="&#x0D0F;,%"
+                latin:keySpec="&#x11045;"
                 latin:keyHintLabel="9"
                 latin:additionalMoreKeys="9" />
-            <!-- U+0D4A: "ൊ" MALAYALAM VOWEL SIGN O
-                 U+0D12: "ഒ" MALAYALAM LETTER O -->
+            <!-- U+11001: " 𑀁" BRAMHI SIGN ANUSVARA
+                 U+11002: " 𑀂" BRAMHI SIGN VISARGA -->
             <Key
-                latin:keySpec="&#x0D4A;"
-                latin:moreKeys="&#x0D12;,%"
+                latin:keySpec="&#x11001;"
+                latin:moreKeys="&#x11002;,%"
                 latin:keyHintLabel="0"
                 latin:additionalMoreKeys="0" />
         </default>
     </switch>
-    <!-- U+0D4B: "ോ" MALAYALAM VOWEL SIGN OO
-         U+0D13: "ഓ" MALAYALAM LETTER OO
-         U+0D14: "ഔ" MALAYALAM LETTER AU
-         U+0D57: "ൗ" MALAYALAM AU LENGTH MARK -->
-    <Key latin:keySpec="&#x0D4B;"
-        latin:moreKeys="&#x0D13;,&#x0D14;,&#x0D57;" />
+    <!-- U+11046: "  𑁆" BRAMHI VIRAMA -->
+    <Key latin:keySpec="&#x11046;" />
 </merge>
