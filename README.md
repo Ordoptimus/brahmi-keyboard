@@ -1,6 +1,8 @@
 ## Simple Keyboard : ProtoIndic
+This project aims to add support for ProtoIndic scripts.
 
 Features:
+- ProtoIndic support (pending)
 - Small size (<1MB)
 - Adjustable keyboard height for more screen space
 - Number row
@@ -9,7 +11,6 @@ Features:
 - Custom theme colors
 - Permissions required: Vibrate
 - Ad-free
-- ProtoIndic support (pending)
 
 ## Credits
 
