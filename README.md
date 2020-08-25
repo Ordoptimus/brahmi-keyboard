@@ -1,9 +1,9 @@
-## Simple Keyboard : ProtoIndic
-This project aims to add support for ProtoIndic scripts.
+## Proto Keyboard
+This project aims to add input support for Proto-Indic scripts like Brahmi.
 
 Features:
-- ProtoIndic support (pending)
-- Small size (<1MB)
+- ProtoIndic support (ongoing)
+- Small size (<2MB)
 - Adjustable keyboard height for more screen space
 - Number row
 - Swipe space to move pointer
