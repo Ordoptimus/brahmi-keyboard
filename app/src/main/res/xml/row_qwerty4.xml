@@ -32,8 +32,11 @@
         <include
             latin:keyXPos="25%p"
             latin:keyboardLayout="@xml/key_space_5kw" />
-        <include
-            latin:keyboardLayout="@xml/key_period" />
+        <!-- U+11047: "𑁇" BRAMHI DANDA
+             U+11048: "𑁈" BRAMHI DOUBLE DANDA -->
+        <Key
+            latin:keySpec="&#x11047;"
+            latin:moreKeys="&#x11048;,%" />
         <Key
             latin:keyStyle="enterKeyStyle"
             latin:keyWidth="fillRight" />

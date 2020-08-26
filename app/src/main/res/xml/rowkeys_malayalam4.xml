@@ -19,47 +19,37 @@
 -->
 
 <merge xmlns:latin="http://schemas.android.com/apk/res-auto">
-    <!-- U+11005: "𑀅" BRAMHI LETTER A
-         U+11003: "𑀃" BRAMHI SIGN JIHVAMULIYA -->
+    <!-- U+11020: "𑀠" BRAMHI LETTER DDHA -->
     <Key
-        latin:keySpec="&#x11005;"
-        latin:moreKeys="&#x11003;" />
-    <!-- U+11006: "𑀆" BRAMHI LETTER AA
-         U+11004: "𑀄" BRAMHI SIGN UPADHAMANIYA -->
+        latin:keySpec="&#x11020;" />
+    <!-- U+11021: "𑀡" BRAMHI LETTER NNA -->
     <Key
-        latin:keySpec="&#x11006;"
-        latin:moreKeys="&#x11004;" />
-    <!-- U+11007: "𑀇" BRAMHI LETTER I -->
+        latin:keySpec="&#x11021;" />
+    <!-- U+11022: "𑀢" BRAMHI LETTER TA -->
     <Key
-        latin:keySpec="&#x11007;" />
-    <!-- U+11008: "𑀈" BRAMHI LETTER II -->
+        latin:keySpec="&#x11022;" />
+    <!-- U+11023: "𑀣" BRAMHI LETTER THA -->
     <Key
-        latin:keySpec="&#x11008;" />
-    <!-- U+11009: "𑀉" BRAMHI LETTER U
-         U+1100D: "𑀍" BRAMHI LETTER VOCALIV L -->
+        latin:keySpec="&#x11023;" />
+    <!-- U+11024: "𑀤" BRAMHI LETTER DA -->
     <Key
-        latin:keySpec="&#x11009;"
-        latin:moreKeys="&#x1100D;" />
-    <!-- U+1100A: "𑀊" BRAMHI LETTER UU
-         U+1100E: "𑀎" BRAMHI LETTER VOCALIV LL -->
+        latin:keySpec="&#x11024;" />
+    <!-- U+11025: "𑀥" BRAMHI LETTER DHA -->
     <Key
-        latin:keySpec="&#x1100A;"
-        latin:moreKeys="&#x1100E;" />
-    <!-- U+1100B: "𑀋" BRAMHI LETTER VOCALIC R
-         U+1100C: "𑀌" BRAMHI LETTER VOCALIC RR -->
+        latin:keySpec="&#x11025;" />
+    <!-- U+11026: "𑀦" BRAMHI LETTER NA -->
     <Key
-        latin:keySpec="&#x1100B;"
-        latin:moreKeys="&#x1100C;" />
-    <!-- U+1100F: "𑀏" BRAMHI LETTER E -->
+        latin:keySpec="&#x11026;" />
+    <!-- U+11027: "𑀧" BRAMHI LETTER PA -->
     <Key
-        latin:keySpec="&#x1100F;" />
-    <!-- U+11010: "𑀐" BRAMHI LETTER AI -->
+        latin:keySpec="&#x11027;" />
+    <!-- U+11028: "𑀨" BRAMHI LETTER PHA -->
     <Key
-        latin:keySpec="&#x11010;" />
-    <!-- U+11011: "𑀑" BRAMHI LETTER O -->
+        latin:keySpec="&#x11028;" />
+    <!-- U+11029: "𑀩" BRAMHI LETTER BA -->
     <Key
-        latin:keySpec="&#x11011;" />
-    <!-- U+11012: "𑀒" BRAMHI LETTER AU -->
+        latin:keySpec="&#x11029;" />
+    <!-- U+1102A: "𑀪" BRAMHI LETTER BHA -->
     <Key
-        latin:keySpec="&#x11012;" />
+        latin:keySpec="&#x1102A;" />
 </merge>
