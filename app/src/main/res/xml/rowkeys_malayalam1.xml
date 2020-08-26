@@ -57,10 +57,11 @@
             <Key
                 latin:keySpec="&#x11045;" />
             <!-- U+11001: " 𑀁" BRAMHI SIGN ANUSVARA
-                 U+11002: " 𑀂" BRAMHI SIGN VISARGA -->
+                 U+11002: " 𑀂" BRAMHI SIGN VISARGA
+                 U+11000: "𑀀" BRAMHI SIGN CANDRABINDU -->
             <Key
                 latin:keySpec="&#x11001;"
-                latin:moreKeys="&#x11002;,%" />
+                latin:moreKeys="&#x11002;,&#x11000;,%" />
         </case>
         <default>
             <!-- U+11038: " 𑀸" BRAMHI VOWEL SIGN AA
@@ -117,10 +118,11 @@
                 latin:keyHintLabel="9"
                 latin:additionalMoreKeys="9" />
             <!-- U+11001: " 𑀁" BRAMHI SIGN ANUSVARA
-                 U+11002: " 𑀂" BRAMHI SIGN VISARGA -->
+                 U+11002: " 𑀂" BRAMHI SIGN VISARGA
+                 U+11000: "𑀀" BRAMHI SIGN CANDRABINDU -->
             <Key
                 latin:keySpec="&#x11001;"
-                latin:moreKeys="&#x11002;,%"
+                latin:moreKeys="&#x11002;,&#x11000;,%"
                 latin:keyHintLabel="0"
                 latin:additionalMoreKeys="0" />
         </default>
