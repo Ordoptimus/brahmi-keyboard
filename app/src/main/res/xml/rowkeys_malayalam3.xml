@@ -19,58 +19,41 @@
 -->
 
 <merge xmlns:latin="http://schemas.android.com/apk/res-auto">
-    <!-- U+0D2A: "പ" MALAYALAM LETTER PA
-         U+0D2B: "ഫ" MALAYALAM LETTER PHA -->
+    <!-- U+11013: "𑀓" BRAMHI LETTER KA -->
     <Key
-        latin:keySpec="&#x0D2A;"
-        latin:moreKeys="&#x0D2B;" />
-    <!-- U+0D2C: "ബ" MALAYALAM LETTER BA
-         U+0D2D: "ഭ" MALAYALAM LETTER BHA -->
+        latin:keySpec="&#x11013;" />
+    <!-- U+11014: "𑀔" BRAMHI LETTER KHA -->
     <Key
-        latin:keySpec="&#x0D2C;"
-        latin:moreKeys="&#x0D2D;" />
-    <!-- U+0D2E: "മ" MALAYALAM LETTER MA
-         U+0D02: "ം" MALAYALAM SIGN ANUSVARA -->
+        latin:keySpec="&#x11014;" />
+    <!-- U+11015: "𑀕" BRAMHI LETTER GA -->
     <Key
-        latin:keySpec="&#x0D2E;"
-        latin:moreKeys="&#x0D02;" />
-    <!-- U+0D2F: "യ" MALAYALAM LETTER YA
-         U+0D4D/U+0D2F: "്യ" MALAYALAM SIGN VIRAMA/MALAYALAM LETTER YA -->
+        latin:keySpec="&#x11015;" />
+    <!-- U+11016: "𑀖" BRAMHI LETTER GHA
+         U+11017: "𑀗" BRAMHI LETTER NGA -->
     <Key
-        latin:keySpec="&#x0D2F;"
-        latin:moreKeys="&#x0D4D;&#x0D2F;" />
-    <!-- U+0D30: "ര" MALAYALAM LETTER RA
-         U+0D4D/U+0D30: "്ര" MALAYALAM SIGN VIRAMA/MALAYALAM LETTER RA
-         U+0D7C: "ർ" MALAYALAM LETTER CHILLU RR
-         U+0D31: "റ" MALAYALAM LETTER RRA -->
+        latin:keySpec="&#x11016;"
+        latin:moreKeys="&#x11017;"/>
+    <!-- U+11018: "𑀘" BRAMHI LETTER CA -->
     <Key
-        latin:keySpec="&#x0D30;"
-        latin:moreKeys="&#x0D4D;&#x0D30;,&#x0D7C;,&#x0D31;" />
-    <!-- U+0D32: "ല" MALAYALAM LETTER LA
-         U+0D7D: "ൽ" MALAYALAM LETTER CHILLU L -->
+        latin:keySpec="&#x11018;" />
+    <!-- U+11019: "𑀙" BRAMHI LETTER CHA -->
     <Key
-        latin:keySpec="&#x0D32;"
-        latin:moreKeys="&#x0D7D;" />
-    <!-- U+0D35: "വ" MALAYALAM LETTER VA
-         U+0D4D/U+0D35: "്വ" MALAYALAM SIGN VIRAMA/MALAYALAM LETTER VA -->
+        latin:keySpec="&#x11019;" />
+    <!-- U+1101A: "𑀚" BRAMHI LETTER JA -->
     <Key
-        latin:keySpec="&#x0D35;"
-        latin:moreKeys="&#x0D4D;&#x0D35;" />
-    <!-- U+0D36: "ശ" MALAYALAM LETTER SHA
-         U+0D37: "ഷ" MALAYALAM LETTER SSA
-         U+0D38: "സ" MALAYALAM LETTER SA -->
+        latin:keySpec="&#x1101A;" />
+    <!-- U+1101B: "𑀛" BRAMHI LETTER JHA
+         U+1101C: "𑀜" BRAMHI LETTER NYA -->
     <Key
-        latin:keySpec="&#x0D36;"
-        latin:moreKeys="&#x0D37;,&#x0D38;" />
-    <!-- U+0D39: "ഹ" MALAYALAM LETTER HA
-         U+0D03: "ഃ" MALAYALAM SIGN VISARGA -->
+        latin:keySpec="&#x1101B;"
+        latin:moreKeys="&#x1101C;" />
+    <!-- U+1101D: "𑀝" BRAMHI LETTER TTA -->
     <Key
-        latin:keySpec="&#x0D39;"
-        latin:moreKeys="&#x0D03;" />
-    <!-- U+0D33: "ള" MALAYALAM LETTER LLA
-         U+0D7E: "ൾ" MALAYALAM LETTER CHILLU LL
-         U+0D34: "ഴ" MALAYALAM LETTER LLLA -->
+        latin:keySpec="&#x1101D;" />
+    <!-- U+1101E: "𑀞" BRAMHI LETTER TTHA -->
     <Key
-        latin:keySpec="&#x0D33;"
-        latin:moreKeys="&#x0D7E;,&#x0D34;" />
+        latin:keySpec="&#x1101E;" />
+    <!-- U+1101F: "𑀟" BRAMHI LETTER DDA -->
+    <Key
+        latin:keySpec="&#x1101F;" />
 </merge>

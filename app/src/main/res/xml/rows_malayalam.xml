@@ -34,8 +34,20 @@
     <Row
         latin:keyWidth="9.091%p"
         latin:keyLabelFlags="fontNormal|autoXScale"
-    >
+        >
         <include latin:keyboardLayout="@xml/rowkeys_malayalam3" />
+    </Row>
+    <Row
+        latin:keyWidth="9.091%p"
+        latin:keyLabelFlags="fontNormal|autoXScale"
+        >
+        <include latin:keyboardLayout="@xml/rowkeys_malayalam4" />
+    </Row>
+    <Row
+        latin:keyWidth="9.091%p"
+        latin:keyLabelFlags="fontNormal|autoXScale"
+    >
+        <include latin:keyboardLayout="@xml/rowkeys_malayalam5" />
         <Key
             latin:keyStyle="deleteKeyStyle"
             latin:keyWidth="fillRight" />

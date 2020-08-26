@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2014, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<merge xmlns:latin="http://schemas.android.com/apk/res-auto">
+    <!-- U+1102B: "𑀫" BRAMHI LETTER MA -->
+    <Key
+        latin:keySpec="&#x1102B;" />
+    <!-- U+1102C: "𑀬" BRAMHI LETTER YA -->
+    <Key
+        latin:keySpec="&#x1102C;" />
+    <!-- U+1102D: "മ" BRAMHI LETTER RA -->
+    <Key
+        latin:keySpec="&#x1102D;" />
+    <!-- U+1102E: "𑀮" BRAMHI LETTER LA -->
+    <Key
+        latin:keySpec="&#x1102E;" />
+    <!-- U+1102F: "𑀯" BRAMHI LETTER VA -->
+    <Key
+        latin:keySpec="&#x1102F;" />
+    <!-- U+11030: "𑀰" BRAMHI LETTER SHA -->
+    <Key
+        latin:keySpec="&#x11030;" />
+    <!-- U+11031: "𑀱" BRAMHI LETTER SSA -->
+    <Key
+        latin:keySpec="&#x11031;" />
+    <!-- U+11032: "𑀲" BRAMHI LETTER SA -->
+    <Key
+        latin:keySpec="&#x11032;" />
+    <!-- U+11033: "𑀳" BRAMHI LETTER HA -->
+    <Key
+        latin:keySpec="&#x11033;" />
+    <!-- U+11034: "𑀴" BRAMHI LETTER LLA
+         U+11035: "𑀵" BRAMHI LETTER OLD TAMIL LLLA
+         U+11036: "𑀶" BRAMHI LETTER OLD TAMIL RRA
+         U+11037: "𑀷" BRAMHI LETTER OLD TAMIL NNNA -->
+    <Key
+        latin:keySpec="&#x11034;"
+        latin:moreKeys="&#x11035;,&#x11036;,&#x11037;," />
+</merge>
