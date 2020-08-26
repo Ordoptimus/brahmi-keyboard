@@ -1,8 +1,8 @@
-## Proto Keyboard
-This project aims to add input support for Proto-Indic scripts like Brahmi.
+## Brahmi Keyboard
+This project aims to creat an Input for the Brahmi Script, on modern Android devices capable of rendering Brahmi Unicode.
 
 Features:
-- ProtoIndic support (ongoing)
+- Brahmi Input (ongoing)
 - Small size (<2MB)
 - Adjustable keyboard height for more screen space
 - Number row
@@ -16,4 +16,4 @@ Features:
 
 Licensed under Apache License Version 2
 
-This keyboard is based on rkkr's [Simple Keyboard](https://github.com/rkkr/simple-keyboard), which is based on AOSP LatineIME keyboard ([source code](https://android.googlesource.com/platform/packages/inputmethods/LatinIME))
+This keyboard is based on rkkr's [Simple Keyboard](https://github.com/rkkr/simple-keyboard), which in turn is based on AOSP LatineIME Keyboard ([source code](https://android.googlesource.com/platform/packages/inputmethods/LatinIME)).
