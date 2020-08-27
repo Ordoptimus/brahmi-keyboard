@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "rkr.simplekeyboard.inputmethod",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 73,
+      "versionName": "3.23",
+      "enabled": true,
+      "outputFile": "app-release.apk"
+    }
+  ]
+}
