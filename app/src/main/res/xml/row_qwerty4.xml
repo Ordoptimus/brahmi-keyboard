@@ -27,8 +27,14 @@
         <Key
             latin:keyStyle="toSymbolKeyStyle"
             latin:keyWidth="15%p" />
-        <include
-            latin:keyboardLayout="@xml/key_comma" />
+        <!-- U+1104D: "𑁍" BRAMHI PUNCTUATION LOTUS
+             U+1104C: "𑁌" BRAMHI PUNCTUATION CRESCENT BAR
+             U+1104B: "𑁋" BRAMHI PUNCTUATION LINE
+             U+1104A: "𑁊" BRAMHI PUNCTUATION DOUBLE DOT
+             U+11049: "𑁉" BRAMHI PUNCTUATION DOT -->
+        <Key
+            latin:keySpec="&#x1104D;"
+            latin:moreKeys="&#x1104C;,&#x1104B;,&#x1104A;,&#x11049;,%" />
         <include
             latin:keyXPos="25%p"
             latin:keyboardLayout="@xml/key_space_5kw" />
