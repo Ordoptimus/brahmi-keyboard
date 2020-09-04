@@ -22,88 +22,9 @@
 
 <!-- Supported subtypes
     keyboard_locale: script_name/keyboard_layout_set
-    af: Afrikaans/qwerty
-    ar: Arabic/arabic
-    az_AZ: Azerbaijani (Azerbaijan)/qwerty
-    be_BY: Belarusian (Belarus)/east_slavic
-    bg: Bulgarian/bulgarian
-    bg: Bulgarian/bulgarian_bds
-    bn_BD: Bengali (Bangladesh)/bengali_akkhor
-    bn_IN: Bengali (India)/bengali
-    ca: Catalan/spanish
-    cs: Czech/qwertz
-    da: Danish/nordic
-    de: German/qwertz
-    de_CH: German (Switzerland)/swiss
-    el: Greek/greek
-    en_IN: English (India)/qwerty
-    en_US: English (United States)/qwerty
-    en_GB: English (Great Britain)/qwerty
-    eo: Esperanto/spanish
-    es: Spanish/spanish
-    es_US: Spanish (United States)/spanish
-    es_419: Spanish (Latin America)/spanish
-    et_EE: Estonian (Estonia)/nordic
-    eu_ES: Basque (Spain)/spanish
-    fa: Persian/farsi
-    fi: Finnish/nordic
-    fr: French/azerty
-    fr_CA: French (Canada)/qwerty
-    fr_CH: French (Switzerland)/swiss
-    gl_ES: Galician (Spain)/spanish
-    hi: Hindi/hindi
-    hi: Hindi/hindi_compact
-    hi_ZZ: Hinglish/qwerty  # This is a preliminary keyboard layout.
-    hr: Croatian/qwertz
-    hu: Hungarian/qwertz
-    hy_AM: Armenian (Armenia) Phonetic/armenian_phonetic
-    in: Indonesian/qwerty    # "id" is the official language code of Indonesian.
-    is: Icelandic/qwerty
-    it: Italian/qwerty
-    it_CH: Italian (Switzerland)/swiss
-    iw: Hebrew/hebrew        # "he" is the official language code of Hebrew.
-    ka_GE: Georgian (Georgia)/georgian
-    kk: Kazakh/east_slavic
-    km_KH: Khmer (Cambodia)/khmer
-    kn_IN: Kannada (India)/kannada
-    ky: Kyrgyz/east_slavic
-    lo_LA: Lao (Laos)/lao
-    lt: Lithuanian/qwerty
-    lv: Latvian/qwerty
-    mk: Macedonian/south_slavic
+
     ml_IN: Malayalam (India)/malayalam
-    mn_MN: Mongolian (Mongolia)/mongolian
-    mr_IN: Marathi (India)/marathi
-    ms_MY: Malay (Malaysia)/qwerty
-    nb: Norwegian Bokmål/nordic
-    ne_NP: Nepali (Nepal) Romanized/nepali_romanized
-    ne_NP: Nepali (Nepal) Traditional/nepali_traditional
-    nl: Dutch/qwerty
-    nl_BE: Dutch (Belgium)/azerty
-    pl: Polish/qwerty
-    pt_BR: Portuguese (Brazil)/qwerty
-    pt_PT: Portuguese (Portugal)/qwerty
-    ro: Romanian/qwerty
-    ru: Russian/east_slavic
-    si_LK: Sinhala (Sri Lanka)/sinhala # This is a preliminary keyboard layout.
-    sk: Slovak/qwerty
-    sl: Slovenian/qwerty
-    sr: Serbian/south_slavic
-    sr_ZZ: Serbian (Latin)/serbian_qwertz # This is a preliminary keyboard layout.
-    sv: Swedish/nordic
-    sw: Swahili/qwerty
-    ta_IN: Tamil (India)/tamil
-    ta_LK: Tamil (Sri Lanka)/tamil # Disabled in conjunction with si_LK.
-    ta_SG: Tamil (Singapore)/tamil
-    te_IN: Telugu (India)/telugu
-    th: Thai/thai
-    tl: Tagalog/spanish
-    tr: Turkish/qwerty
-    uk: Ukrainian/east_slavic
-    ur: Urdu/urdu
-    uz_UZ: Uzbek (Uzbekistan)/uzbek # This is a preliminary keyboard layout.
-    vi: Vietnamese/qwerty
-    zu: Zulu/qwerty
+
     -->
 <!-- TODO: use <lang>_keyboard icon instead of a common keyboard icon. -->
 <!-- If IME doesn't have an applicable subtype, the first subtype will be used as a default
@@ -111,20 +32,13 @@
 <input-method xmlns:android="http://schemas.android.com/apk/res/android"
         android:settingsActivity="rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity"
         android:supportsSwitchingToNextInputMethod="true">
-    <subtype android:icon="@drawable/ic_ime_switcher_dark"
-            android:label="@string/subtype_en_US"
-            android:subtypeId="0xc9194f98"
-            android:imeSubtypeLocale="en_US"
-            android:imeSubtypeMode="keyboard"
-            android:isAsciiCapable="true"
-    />
 
     <subtype android:icon="@drawable/ic_ime_switcher_dark"
-            android:label="@string/subtype_generic"
+            android:label="Brahmi"
             android:subtypeId="0xc182ebd4"
-            android:imeSubtypeLocale="ml_IN"
+            android:imeSubtypeLocale="𑀩𑁆𑀭𑀸𑀫𑁆𑀳𑀻"
             android:imeSubtypeMode="keyboard"
-            android:imeSubtypeExtraValue="KeyboardLayoutSet=malayalam"
+            android:imeSubtypeExtraValue="KeyboardLayoutSet=bramhi"
             android:isAsciiCapable="false"
     />
 
