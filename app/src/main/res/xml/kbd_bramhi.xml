@@ -28,11 +28,11 @@
             <include latin:keyboardLayout="@xml/rowkeys_qwerty0" />
 
             <include
-                latin:keyboardLayout="@xml/rows_malayalam"
+                latin:keyboardLayout="@xml/rows_bramhi"
                 latin:rowHeight="21.25%p"/>
         </case>
         <default>
-            <include latin:keyboardLayout="@xml/rows_malayalam" />
+            <include latin:keyboardLayout="@xml/rows_bramhi" />
         </default>
     </switch>
 </Keyboard>

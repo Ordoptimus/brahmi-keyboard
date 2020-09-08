@@ -20,37 +20,47 @@
 
 <merge xmlns:latin="http://schemas.android.com/apk/res-auto">
     <Row
-        latin:keyWidth="9.091%p"
+        latin:keyWidth="8.182%p"
         latin:keyLabelFlags="fontNormal|autoXScale"
     >
-        <include latin:keyboardLayout="@xml/rowkeys_malayalam1" />
+        <include latin:keyboardLayout="@xml/rowkeys_bramhi1" />
+        <!--<Key
+            latin:keyStyle="deleteKeyStyle"
+            latin:keyWidth="fillRight" /> -->
     </Row>
     <Row
-        latin:keyWidth="9.091%p"
+        latin:keyWidth="8.182%p"
         latin:keyLabelFlags="fontNormal|autoXScale"
     >
-        <include latin:keyboardLayout="@xml/rowkeys_malayalam2" />
+        <include latin:keyboardLayout="@xml/rowkeys_bramhi2" />
+        <!--<Key
+            latin:keyStyle="enterKeyStyle"
+            latin:keyWidth="fillRight" /> -->
     </Row>
     <Row
-        latin:keyWidth="9.091%p"
+        latin:keyWidth="8.182%p"
         latin:keyLabelFlags="fontNormal|autoXScale"
         >
-        <include latin:keyboardLayout="@xml/rowkeys_malayalam3" />
-    </Row>
-    <Row
-        latin:keyWidth="9.091%p"
-        latin:keyLabelFlags="fontNormal|autoXScale"
-        >
-        <include latin:keyboardLayout="@xml/rowkeys_malayalam4" />
-    </Row>
-    <Row
-        latin:keyWidth="9.091%p"
-        latin:keyLabelFlags="fontNormal|autoXScale"
-    >
-        <include latin:keyboardLayout="@xml/rowkeys_malayalam5" />
+        <include latin:keyboardLayout="@xml/rowkeys_bramhi3" />
         <Key
             latin:keyStyle="deleteKeyStyle"
             latin:keyWidth="fillRight" />
+    </Row>
+    <Row
+        latin:keyWidth="8.182%p"
+        latin:keyLabelFlags="fontNormal|autoXScale"
+        >
+        <include latin:keyboardLayout="@xml/rowkeys_bramhi4" />
+        <Key
+            latin:keyStyle="enterKeyStyle"
+            latin:keyWidth="fillRight" />
+    </Row>
+    <Row
+        latin:keyWidth="8.182%p"
+        latin:keyLabelFlags="fontNormal|autoXScale"
+    >
+        <include latin:keyboardLayout="@xml/rowkeys_bramhi5" />
+        <include latin:keyboardLayout="@xml/keys_exclamation_question" />
     </Row>
     <include latin:keyboardLayout="@xml/row_qwerty4" />
 </merge>

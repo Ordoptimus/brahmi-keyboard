@@ -23,24 +23,34 @@
         latin:rowHeight="15%p"
         >
         <Key
-            latin:keySpec="1" />
+            latin:keySpec="&#x11067;"
+            latin:moreKeys="&#x11052;,&#x1105C;,%" />
         <Key
-            latin:keySpec="2" />
+            latin:keySpec="&#x11068;"
+            latin:moreKeys="&#x11053;,&#x1105D;,%" />
         <Key
-            latin:keySpec="3" />
+            latin:keySpec="&#x11069;"
+            latin:moreKeys="&#x11054;,&#x1105E;,%" />
         <Key
-            latin:keySpec="4" />
+            latin:keySpec="&#x1106A;"
+            latin:moreKeys="&#x11055;,&#x1105F;,%" />
         <Key
-            latin:keySpec="5" />
+            latin:keySpec="&#x1106B;"
+            latin:moreKeys="&#x11056;,&#x11060;,%" />
         <Key
-            latin:keySpec="6" />
+            latin:keySpec="&#x1106C;"
+            latin:moreKeys="&#x11057;,&#x11061;,%" />
         <Key
-            latin:keySpec="7" />
+            latin:keySpec="&#x1106D;"
+            latin:moreKeys="&#x11058;,&#x11062;,%" />
         <Key
-            latin:keySpec="8" />
+            latin:keySpec="&#x1106E;"
+            latin:moreKeys="&#x11059;,&#x11063;,%" />
         <Key
-            latin:keySpec="9" />
+            latin:keySpec="&#x1106F;"
+            latin:moreKeys="&#x1105A;,&#x11064;,%" />
         <Key
-            latin:keySpec="0" />
+            latin:keySpec="&#x11066;"
+            latin:moreKeys="&#x1105B;,&#x11065;,%" />
     </Row>
 </merge>

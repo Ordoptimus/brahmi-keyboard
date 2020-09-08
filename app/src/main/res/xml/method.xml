@@ -23,7 +23,7 @@
 <!-- Supported subtypes
     keyboard_locale: script_name/keyboard_layout_set
 
-    ml_IN: Malayalam (India)/malayalam
+    BRAHMI: Brahmi (India) / Bramhi / 𑀩𑁆𑀭𑀸𑀫𑁆𑀳𑀻
 
     -->
 <!-- TODO: use <lang>_keyboard icon instead of a common keyboard icon. -->
@@ -34,9 +34,9 @@
         android:supportsSwitchingToNextInputMethod="true">
 
     <subtype android:icon="@drawable/ic_ime_switcher_dark"
-            android:label="Brahmi"
+            android:label="𑀩𑁆𑀭𑀸𑀫𑁆𑀳𑀻"
             android:subtypeId="0xc182ebd4"
-            android:imeSubtypeLocale="𑀩𑁆𑀭𑀸𑀫𑁆𑀳𑀻"
+            android:imeSubtypeLocale="BRAHMI"
             android:imeSubtypeMode="keyboard"
             android:imeSubtypeExtraValue="KeyboardLayoutSet=bramhi"
             android:isAsciiCapable="false"
