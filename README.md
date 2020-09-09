@@ -1,11 +1,14 @@
 ## Brahmi Keyboard
 This project aims to creat an Input for the Brahmi Script, on modern Android devices capable of rendering Brahmi Unicode.
 
+<img src="images/SS-light-borderless.jpg" alt="light theme borderless">
+<img src="images/SS-dark-bordered.jpg" alt="dark theme bordered">
+
 Features:
-- Brahmi Input (ongoing)
-- Small size (<2MB)
+- Brahmi Input
+- Optional Bramhi Number row
+- Small size (<1MB)
 - Adjustable keyboard height for more screen space
-- Number row
 - Swipe space to move pointer
 - Delete swipe
 - Custom theme colors
