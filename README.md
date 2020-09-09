@@ -1,12 +1,22 @@
 ## Brahmi Keyboard
-This project aims to creat an Input for the Brahmi Script, on modern Android devices capable of rendering Brahmi Unicode.
+This project aims to creat an Input for the Brahmi Script, to be used on modern Android devices capable of rendering Brahmi Unicode.
+
+About Brahmi -
+The Brahmi Script is the parent script of all Indic scripts and the extended Brahmic Family. It is the oldest alphasyllabary in the world. One of its famed descendants include Devanāgarī. It is pronounced as: <i>braa-m-hee</i>, and thus alternatively spelled as Bramhi (IAST: Brāmhī).
+
+<h4>Brahmi specifications -</h4>
+<p> Unicode Block : U+11000 - U+1107F <br>
+ISO 15924 : Brah, 300 <br>
+ISO 15924 Script Code : BRAHMI </p>
 
 <img src="images/SS-light-borderless.jpg" width="400" alt="light theme borderless"> <img src="images/SS-dark-bordered.jpg" width="400" alt="dark theme bordered">
 
 Features:
-- Brahmi Input
+- Brahmi Input 
 - Optional Bramhi Number row
-- Small size (<1MB)
+- Input switching key to shift to primary keyboard (if active)
+- Additional characters on longpress for specific keys
+- Resource light and tiny in size (<1MB)
 - Adjustable keyboard height for more screen space
 - Swipe space to move pointer
 - Delete swipe
