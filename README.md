@@ -1,8 +1,7 @@
 ## Brahmi Keyboard
 This project aims to creat an Input for the Brahmi Script, on modern Android devices capable of rendering Brahmi Unicode.
 
-<img src="images/SS-light-borderless.jpg" alt="light theme borderless">
-<img src="images/SS-dark-bordered.jpg" alt="dark theme bordered">
+<img src="images/SS-light-borderless.jpg" width="400" alt="light theme borderless"> <img src="images/SS-dark-bordered.jpg" width="400" alt="dark theme bordered">
 
 Features:
 - Brahmi Input
