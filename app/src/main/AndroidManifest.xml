@@ -15,7 +15,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="rkr.simplekeyboard.inputmethod">
+    package="app.ordoptimus.bramhi">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
@@ -26,7 +26,7 @@
         android:supportsRtl="true">
         <!-- Services -->
         <service
-            android:name=".latin.LatinIME"
+            android:name="app.ordoptimus.bramhi.latin.LatinIME"
             android:label="@string/english_ime_name"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -39,7 +39,7 @@
         </service>
 
         <activity
-            android:name=".latin.settings.SettingsActivity"
+            android:name="app.ordoptimus.bramhi.latin.settings.SettingsActivity"
             android:label="@string/english_ime_name"
             android:theme="@style/platformSettingsTheme">
             <intent-filter>
@@ -47,7 +47,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity> <!-- Broadcast receivers -->
-        <receiver android:name=".latin.SystemBroadcastReceiver">
+        <receiver android:name="app.ordoptimus.bramhi.latin.SystemBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.LOCALE_CHANGED" />
             </intent-filter>

@@ -17,15 +17,15 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:key="english_ime_settings">
     <PreferenceScreen
-        android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.PreferencesSettingsFragment"
+        android:fragment="app.ordoptimus.bramhi.latin.settings.PreferencesSettingsFragment"
         android:title="@string/settings_screen_preferences"
         android:key="screen_preferences" />
     <PreferenceScreen
-        android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.AppearanceSettingsFragment"
+        android:fragment="app.ordoptimus.bramhi.latin.settings.AppearanceSettingsFragment"
         android:title="@string/settings_screen_appearance"
         android:key="screen_appearance" />
     <PreferenceScreen
-        android:fragment="rkr.simplekeyboard.inputmethod.latin.settings.AdvancedSettingsFragment"
+        android:fragment="app.ordoptimus.bramhi.latin.settings.AdvancedSettingsFragment"
         android:title="@string/settings_screen_advanced"
         android:key="screen_advanced" />
 </PreferenceScreen>
