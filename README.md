@@ -3,12 +3,15 @@ This project is an Android Input Method (Keyboard) for the Brahmi Script, to be 
 At the time of writing, this is the only Android Keyboard to enable writing in the Brahmi Script.
 
 #### About Brahmi -
-The Brahmi Script is the parent script of all Indic scripts and the extended Brahmic Family. It is the oldest alphasyllabary in the world, with the oldest verified inscriptions going back 2500 years BP. One of its famed descendants include Devanāgarī. It is pronounced as: <i>braa-h-mee</i>, and also alternatively spelled as Bramhi (IAST: Brāhmī).
+The Brahmi Script is the parent script of all Indic scripts and the extended Brahmic Family. It is the oldest alphasyllabary in the world, with the oldest verified inscriptions going back 2500 years BP. One of its famed descendants include Devanāgarī. It is pronounced as: <i>braa-h-mee</i>, and also alternatively spelled as Bramhi.
 
 #### Brahmi Specifications -
-<p> Unicode Block : U+11000 - U+1107F <br>
-ISO 15924 : Brah, 300 <br>
-ISO 15924 Script Code : BRAHMI </p>
+<p>
+  IAST: Brāhmī <br>
+  Unicode Block : U+11000 - U+1107F <br>
+  ISO 15924 : Brah, 300 <br>
+  ISO 15924 Script Code : BRAHMI 
+</p>
 
 <img src="images/SS-light-borderless.jpg" width="400" alt="light theme borderless"> <img src="images/SS-dark-bordered.jpg" width="400" alt="dark theme bordered">
 
